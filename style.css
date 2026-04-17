@@ -1,0 +1,386 @@
+.nav-bar {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+}
+.nav-link.active {
+    color: #0d6efd !important;
+    border-bottom-color: #0d6efd !important; 
+}
+
+.hero-section {
+  margin-top: 30px;
+}
+.mession-div {
+  background-color: #f8f9fa;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.under-line {
+  width: 100px;
+  height: 5px;
+  background-color: #0d6efd;
+  margin-top: 10px;
+}
+
+.client-div{
+  text-align: center;
+}
+.client-text {
+  letter-spacing: 0.3rem;
+  font-size: 0.8rem;
+}
+.italic{
+  font-style: italic;
+}
+
+
+  /* body {
+      font-family: 'Inter', sans-serif;
+      background: #fff;
+      color: #111;
+    }
+
+    h1, h2, h3 {
+      font-family: 'Playfair Display', serif;
+    } */
+
+    /* .navbar {
+      border-bottom: 1px solid #eee;
+    } */
+
+    .hero-title {
+      font-size: 3rem;
+      font-weight: 700;
+      line-height: 1.2;
+      font-family: 'Inter', sans-serif;
+    }
+
+    .muted-text {
+      color: #777;
+    }
+
+    .section {
+      padding: 80px 0;
+    }
+
+    .quote {
+      font-size: 1.5rem;
+      font-style: italic;
+      text-align: right;
+    }
+
+    .skill-card {
+            background: white;
+            border: none;
+            border-radius: 12px;
+            padding: 30px;
+            height: 100%;
+            transition: transform 0.3s;
+        }
+
+    .progress {
+            height: 4px;
+            background-color: #e9ecef;
+        }
+
+    .clients span {
+      display: inline-block;
+      margin: 10px 20px;
+      font-weight: 500;
+      letter-spacing: 1px;
+    }
+
+    .cta {
+      text-align: center;
+      padding: 80px 0;
+    }
+
+    .btn-custom {
+      border: 1px solid #000;
+      padding: 10px 25px;
+      background: transparent;
+      transition: 0.3s;
+    }
+
+    .btn-custom:hover {
+      background: #000;
+      color: #fff;
+    }
+
+
+    
+ .badge-custom {
+    background-color: #eceaff;
+    color: #6366f1;
+    border-radius: 50px;
+    padding: 8px 15px;
+     font-size: 0.8rem;
+     text-transform: uppercase;
+    letter-spacing: 1px;
+     margin: 5px;
+     display: inline-block;
+ }
+
+/* PORTFOLIO PROFILE */
+.sportclr{
+    color: blue;
+}
+.portfoliohero{
+    margin-left: 100px;
+   margin-top: 100px;
+} 
+
+/* Personal Identity */
+.stitle{
+    display: flex;
+    gap: 5px;
+    margin-left: 150px;
+    margin-top: 200px;
+  padding-top: 150px;
+}
+.spersonal-identity{
+    display: flex;
+  padding-left: 50px;
+    gap: 40px;
+    padding-top: 50px;
+    margin-left: 100px;
+    
+}
+.sprofile-card {
+    background: #fff;
+    padding: 30px;
+    border-radius: 12px;
+    height: 300px;
+    width: 250px;
+    text-align: center;
+    border-left: 5px solid #2d6cdf;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+.sprofile-img {
+    width: 120px;
+    height: 120px;
+    border-radius: 12px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+.sprofile-info {
+    flex: 1;
+}
+
+.info-block {
+    margin-bottom: 25px;
+}
+
+.info-block span {
+    font-size: 12px;
+    letter-spacing: 1px;
+    color: #888;
+    display: block;
+    margin-bottom: 8px;
+}
+
+.info-block p {
+    font-size: 16px;
+    color: #222;
+    line-height: 1.6;
+}
+.Identitybg{
+    background: #f5f6f7;
+    padding: auto;
+}
+/* Academic Foundation */
+.education {
+    margin-top: 60px;
+    margin-left: 100px;
+}
+.section-title {
+    font-size: 28px;
+    margin-bottom: 40px;
+    color: #333;
+}
+
+.timeline {
+    position: relative;
+    padding-left: 40px;
+}
+
+.timeline-item {
+    position: relative;
+    margin-bottom: 50px;
+}
+.timeline-dot {
+    position: absolute;
+    left: -25px;
+    top: 5px;
+    width: 12px;
+    height: 12px;
+    background: #cfd8dc;
+    border-radius: 50%;
+}
+
+.timeline-item.active .timeline-dot {
+    background: #2d6cdf;
+}
+
+.timeline-content .year {
+    font-size: 14px;
+    color: #2d6cdf;
+    font-weight: 500;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.timeline-content h3 {
+    font-size: 22px;
+    margin-bottom: 8px;
+    color: #222;
+}
+
+.institution {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 12px;
+}
+
+.desc {
+    font-size: 15px;
+    color: #666;
+    line-height: 1.6;
+}
+/* professional Milestones */
+.experience {
+    margin-top: 60px;
+    margin-left: 100px;
+}
+.section-title {
+    font-size: 28px;
+    margin-bottom: 30px;
+    color: #333;
+}
+.experience-container {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.exp-card {
+    background: #f8f9fb;
+    padding: 25px 30px;
+    border-radius: 14px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.03);
+}
+.exp-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 15px;
+}
+.exp-header h3 {
+    font-size: 22px;
+    margin-bottom: 5px;
+    color: #222;
+}
+.company {
+    color: #2d6cdf;
+    font-weight: 500;
+}
+
+.date {
+    background: #e4e7eb;
+    padding: 6px 14px;
+    border-radius: 20px;
+    font-size: 14px;
+    color: #555;
+    white-space: nowrap;
+}
+
+.exp-body p {
+    color: #555;
+    font-size: 15px;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+/* Core Proficiencies */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+body {
+  background: #f5f6f7;
+}
+.skills-section {
+  display: flex;
+  justify-content: space-between;
+  padding: 60px 80px;
+  gap: 60px;
+}
+.left, .right {
+  width: 50%;
+}
+h2 {
+  font-size: 28px;
+  margin-bottom: 30px;
+  color: #1e1e1e;
+}
+.skill {
+  margin-bottom: 25px;
+}
+.skill-top {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+  font-weight: 600;
+}
+.level.blue {
+  color: #1e5eff;
+}
+.level.gray {
+  color: #666;
+}
+.progress {
+  width: 100%;
+  height: 8px;
+  background: #ddd;
+  border-radius: 10px;
+}
+.bar {
+  height: 8px;
+  border-radius: 10px;
+}
+.bar.blue {
+  background: #1e5eff;
+}
+.bar.gray {
+  background: #444;
+}
+.tags {
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.tags span {
+  background: #dcd6f7;
+  padding: 8px 14px;
+  border-radius: 20px;
+  font-size: 13px;
+  font-weight: 600;
+}
+.card {
+  background: #e9ecef;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+.card h4 {
+  margin-bottom: 6px;
+}
+.card p {
+  color: #555;
+}
